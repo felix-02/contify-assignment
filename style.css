@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#slides{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 90vh; 
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+.slide:nth-of-type(1){
+    background:url("./icons/abandoned-forest-industry-nature-34950.jpg") center center/cover no-repeat; 
+    background-attachment: fixed;
+
+}
+.slide:nth-of-type(2){
+    background:url("./icons/aerial-view-of-road-in-the-middle-of-trees-1173777.jpg") center center/cover no-repeat;
+ background-attachment: fixed;}
+.slide:nth-of-type(3){
+    background: url("./icons/black-hanging-bridge-surrounded-by-green-forest-trees-775201.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(4){
+    background:url("./icons/close-up-of-leaf-326055.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(5){
+    background:url("./icons/daylight-forest-glossy-lake-443446.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(6){
+    background:url("./icons/flight-landscape-nature-sky-36717.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(7){
+    background:url("./icons/nature-red-forest-leaves-33109.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(8){
+    background: url("./icons/panoramic-view-of-sea-against-blue-sky-248771.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(9){
+    background:url("./icons/scenic-view-of-mountain-1666021.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(10){
+    background:url("./icons/seaside-994605.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(11){
+    background:url("./icons/time-lapse-photography-of-waterfalls-during-sunset-210186.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.slide:nth-of-type(12){
+    background:url("./icons/trees-in-park-257360.jpg") center center/cover no-repeat;
+     background-attachment: fixed;
+}
+.btn{
+    height: 10vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    
+
+}
+.btn button{
+ flex: 1;
+box-sizing: border-box;
+display:inline-block;
+padding:0.1rem 1rem;
+border:0.1rem solid #FFFFFF;
+border-radius:0.12rem;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:white;
+background-color: black;
+text-align:center;
+font-size: 0.8rem;
+margin: 0px auto;
+cursor: pointer;
+transition: all 0.2s;
+}
+.btn button:hover{
+color:black;
+background-color:#FFFFFF;
+}
